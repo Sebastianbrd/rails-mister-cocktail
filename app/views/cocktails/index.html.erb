@@ -1,0 +1,9 @@
+<div class="container">
+<h1>Become a CockTail master</h1>
+  <% @cocktails.each do |cocktail| %>
+    <div class="card-category">
+      <h2><%= cocktail.name %></h2>
+      <%= link_to "Discover recipe", cocktail_path(cocktail), class: "btn btn-primary" %>
+    </div>
+  <% end %>
+</div>
