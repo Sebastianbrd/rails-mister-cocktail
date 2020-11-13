@@ -12,6 +12,7 @@
   </head>
 
   <body>
+  <% unless action_name == "home" %>
     <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
     <%= link_to "Home", cocktails_path, class: "navbar-brand" %>
 
@@ -28,6 +29,7 @@
       </ul>
     </div>
   </div>
+  <% end %>
     <%= yield %>
   </body>
 </html>
