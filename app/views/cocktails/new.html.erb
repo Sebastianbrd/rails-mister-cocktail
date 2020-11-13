@@ -1,7 +1,8 @@
 <h1>Alright CockTail master, show us what you've got!</h1>
 <%= simple_form_for(@cocktail) do |f| %>
-  <%= f.input :name %>
-  <%# <%= f.association :ingredients, as: :select, collection: Ingredients(:name), prompt: "Choose ingredients" %>
-  <%# <%= f.association :doses %>
+  <%= f.input :name, label: "Pick a CockTail name" %>
+  <%= f.input :photo, as: :file %>
   <%= f.submit %>
 <% end %>
+
+<%= cl_image_tag("xbnhaerbduaehzejrmfw", height: 800) %>

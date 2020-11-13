@@ -1,6 +1,6 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background: black;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -9,4 +9,13 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+}
+
+.navbar-light .navbar-brand {
+  color: white !important;
+  font-family: 'Nosifer', cursive;
+}
+.nav-link {
+  color: white !important;
+  font-family: 'Nosifer', cursive !important;
 }

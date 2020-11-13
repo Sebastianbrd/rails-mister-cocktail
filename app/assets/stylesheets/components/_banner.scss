@@ -1,0 +1,41 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #f0f0f0;
+  font-size: 40px;
+  margin: 0;
+  text-align: center;
+}
+h2 {
+  color: #f0f0f0;
+  font-size: 26px;
+  margin: 0;
+  text-align: center;
+}
+
+.banner p {
+  color: #bababa;
+  font-size: 22px;
+  margin: 15px 0 20px;
+  text-shadow: #3a3a3a;
+}
+
+.content-center {
+  text-align: center;
+}
+.container-index {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.banner-index {
+background-size: cover;
+height: 100vh;
+}

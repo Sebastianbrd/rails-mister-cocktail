@@ -14,7 +14,7 @@ class DosesController < ApplicationController
       render "cocktails/show"
     end
   end
-  
+
   def destroy
     @dose = Dose.find(params[:id])
     @dose.destroy
